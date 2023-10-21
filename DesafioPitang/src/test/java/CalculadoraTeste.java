@@ -1,6 +1,4 @@
-import org.desafio.controller.Calculadora;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 public class CalculadoraTeste {
     @Test
