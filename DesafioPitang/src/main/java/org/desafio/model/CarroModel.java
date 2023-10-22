@@ -10,7 +10,7 @@ public class CarroModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idCarro;
+    private Long idCar;
     @Column
     private Integer yearCars;
     @Column
@@ -20,12 +20,12 @@ public class CarroModel {
     @Column
     private String color;
 
-    public Long getIdCarro() {
-        return idCarro;
+    public Long getIdCar() {
+        return idCar;
     }
 
-    public void setIdCarro(Long idCarro) {
-        this.idCarro = idCarro;
+    public void setIdCar(Long idCar) {
+        this.idCar = idCar;
     }
 
     public Integer getYearCars() {
@@ -64,11 +64,11 @@ public class CarroModel {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof CarroModel that)) return false;
-        return Objects.equals(getIdCarro(), that.getIdCarro());
+        return Objects.equals(getIdCar(), that.getIdCar());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getIdCarro());
+        return Objects.hash(getIdCar());
     }
 }

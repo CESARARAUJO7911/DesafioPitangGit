@@ -14,7 +14,7 @@ public class Main {
     @Bean
     public CommandLineRunner initialization(){
         return args -> {
-            System.out.println("Hello World!");
+            System.out.println("Quebramos mais uma barreira! Vamos nessa!");
         };
     }
 }
